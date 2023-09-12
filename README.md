@@ -2,8 +2,10 @@
 
 ## nix
 https://nixos.org/download#nix-install-macos
-sh <(curl -L https://nixos.org/nix/install)
 
+```
+sh <(curl -L https://nixos.org/nix/install)
+```
 ## shell's
 
 ```
