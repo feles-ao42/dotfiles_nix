@@ -22,14 +22,24 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
+    # basic command
     tree
     wget
-    neofetch
-    jdk11
+    gnupg
     htop
     direnv
-    asdf-vm
     zsh
+    xz
+
+    # advanced command
+    asdf-vm
+
+    # toy command
+    neofetch
+
+    # languages
+    jdk11
+
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
