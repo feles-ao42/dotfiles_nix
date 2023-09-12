@@ -26,10 +26,13 @@
     tree
     wget
     gnupg
+    pinentry_mac
+    #pinentry
     htop
     direnv
     zsh
     xz
+    mtr
 
     # advanced command
     asdf-vm
