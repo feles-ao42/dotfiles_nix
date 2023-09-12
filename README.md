@@ -6,7 +6,7 @@ https://nixos.org/download#nix-install-macos
 ```
 sh <(curl -L https://nixos.org/nix/install)
 ```
-## shell's
+## change shell
 
 ```
 chsh -s $(which zsh)
