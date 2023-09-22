@@ -33,6 +33,8 @@
     zsh
     xz
     mtr
+    hugo
+    darwin.iproute2mac
 
     # advanced command
     asdf-vm
