@@ -79,6 +79,20 @@
     # '';
   };
 
+  programs.git = {
+    enable = true;
+    userName = "feles-ao42";
+    userEmail = "yf@keio.jp";
+    extraConfig = {
+      core = {
+        editor = "vim";
+      };
+      init = {
+        defaultBranch = "master";
+      };
+    };
+  };
+
   # You can also manage environment variables but you will have to manually
   # source
   #

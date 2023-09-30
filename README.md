@@ -27,6 +27,12 @@ ln home-manager/home.nix ~/.config/home-manager/home.nix
 home-manager switch
 ```
 
+## zsh configs
+```
+ln zsh/.zshrc ~/.zshrc
+```
+
+
 ## memo
 ```
 asdf reshim python
