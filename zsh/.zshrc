@@ -183,11 +183,11 @@ PERCOL=fzf
 # export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # Mac configs
-export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
-gpg-connect-agent --quiet /bye
+#export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
+#gpg-connect-agent --quiet /bye
 #source /Users/feles/.docker/init-zsh.sh || true # Added by Docker Desktop
 eval "$(direnv hook zsh)"
-export GPG_TTY=$(tty)
+#export GPG_TTY=$(tty)
 
 # Linux configs
 # . "$HOME/.asdf/asdf.sh"

@@ -32,6 +32,10 @@ home-manager switch
 ln zsh/.zshrc ~/.zshrc
 ```
 
+## vim configs
+```
+ln vim/.vimrc ~/.vimrc
+```
 
 ## memo
 ```
