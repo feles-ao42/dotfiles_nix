@@ -43,7 +43,9 @@
     neofetch
 
     # languages
-    jdk11
+    python39Full
+    python39Packages.pip
+
 
 
     # # Adds the 'hello' command to your environment. It prints a friendly
