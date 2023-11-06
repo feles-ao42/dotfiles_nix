@@ -35,6 +35,7 @@
     mtr
     hugo
     darwin.iproute2mac
+    nmap
 
     # advanced command
     asdf-vm
