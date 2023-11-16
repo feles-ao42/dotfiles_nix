@@ -32,6 +32,7 @@
     direnv
     zsh
     xz
+    zlib
     mtr
     hugo
     darwin.iproute2mac
@@ -44,10 +45,9 @@
     neofetch
 
     # languages
-    python39Full
-    python39Packages.pip
-
-
+    #python39Full
+    #python39Packages.pip
+    conda
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
@@ -117,5 +117,7 @@
     package = pkgs.nix;
     settings.experimental-features = [ "nix-command" "flakes" ];
   };
+
+  #nixpkgs.config.allowUnsupportedSystem = true;
 
 }
