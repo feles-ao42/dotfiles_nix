@@ -47,7 +47,6 @@
     # languages
     #python39Full
     #python39Packages.pip
-    conda
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
