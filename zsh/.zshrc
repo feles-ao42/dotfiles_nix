@@ -137,7 +137,6 @@ function mkcd() {
 
 
 export EDITOR=vim
-eval "$(direnv hook zsh)"
 
 plugins={zsh-autosuggestions}
 
