@@ -29,7 +29,7 @@
     pinentry_mac
     #pinentry
     htop
-    direnv
+    #direnv
     zsh
     xz
     zlib
@@ -43,6 +43,9 @@
 
     # toy command
     neofetch
+
+    # application
+    asciiquarium
 
     # languages
     #python39Full
