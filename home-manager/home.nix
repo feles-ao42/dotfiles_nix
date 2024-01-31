@@ -38,6 +38,9 @@
     darwin.iproute2mac
     nmap
 
+    iperf
+    inetutils
+
     # advanced command
     asdf-vm
 
@@ -46,6 +49,7 @@
 
     # application
     asciiquarium
+    ffmpeg
 
     # languages
     #python39Full
