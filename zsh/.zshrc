@@ -175,9 +175,10 @@ PERCOL=fzf
 #  fi
 #fi
 
+. "$HOME/.asdf/asdf.sh"
+
 
 # brew configs
-# . /opt/homebrew/opt/asdf/libexec/asdf.sh
 # export PATH=$PATH:/opt/homebrew/Cellar/john-jumbo/1.9.0_1/
 # export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
@@ -187,6 +188,8 @@ PERCOL=fzf
 #source /Users/feles/.docker/init-zsh.sh || true # Added by Docker Desktop
 eval "$(direnv hook zsh)"
 #export GPG_TTY=$(tty)
+. "$HOME/.cargo/env"
+
 
 # Linux configs
 # . "$HOME/.asdf/asdf.sh"
@@ -198,7 +201,6 @@ then
 fi
 
 . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
-. "$HOME/.nix-profile/share/asdf-vm/asdf.sh"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

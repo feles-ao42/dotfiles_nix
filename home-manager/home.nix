@@ -41,8 +41,10 @@
     iperf
     inetutils
 
+    cmake
+
     # advanced command
-    asdf-vm
+    # asdf-vm
 
     # toy command
     neofetch
