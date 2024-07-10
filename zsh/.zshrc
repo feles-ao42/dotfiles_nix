@@ -180,7 +180,7 @@ PERCOL=fzf
 
 # brew configs
 # export PATH=$PATH:/opt/homebrew/Cellar/john-jumbo/1.9.0_1/
-# export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # Mac configs
 #export SSH_AUTH_SOCK="$(gpgconf --list-dirs agent-ssh-socket)"
@@ -188,7 +188,6 @@ PERCOL=fzf
 #source /Users/feles/.docker/init-zsh.sh || true # Added by Docker Desktop
 eval "$(direnv hook zsh)"
 #export GPG_TTY=$(tty)
-. "$HOME/.cargo/env"
 
 
 # Linux configs
