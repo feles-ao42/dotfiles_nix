@@ -45,7 +45,9 @@
 
     cmake
 
-    # advanced command
+    exiftool
+
+# advanced command
     # asdf-vm
 
     # toy command
