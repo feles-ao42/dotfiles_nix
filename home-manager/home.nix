@@ -46,6 +46,7 @@
     cmake
 
     exiftool
+    gtop
 
 # advanced command
     # asdf-vm
